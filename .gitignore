@@ -1,0 +1,24 @@
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# DuckDB database files
+data/database/*.duckdb
+data/database/*.wal
+
+# Go executables and build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Temporary files
+*.tmp
+*.log
+
+# Generated Go coverage profiles
+results/coverage
+results/coverage.out
